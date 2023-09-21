@@ -9,7 +9,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int lengthD, lengthS;
- 
+
 	lengthD = 0;	
 	lengthS = 0;
 
@@ -27,3 +27,4 @@ char *_strcat(char *dest, char *src)
 
 	return (dest);
 }
+
