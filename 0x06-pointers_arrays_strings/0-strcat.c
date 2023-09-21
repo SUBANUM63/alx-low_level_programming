@@ -8,7 +8,10 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int lengthD = 0, lengthS = 0;
+	int lengthD, lengthS;
+ 
+	lengthD = 0;	
+	lengthS = 0;
 
 	while (*(dest + lengthD) != '\0')
 		lengthD++;
@@ -19,6 +22,8 @@ char *_strcat(char *dest, char *src)
 		lengthD++;
 		lengthS++;
 	}
+
 	*(dest + lengthD) = '\0';
+
 	return (dest);
 }
