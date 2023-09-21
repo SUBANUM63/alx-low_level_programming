@@ -11,9 +11,9 @@ char *_strcat(char *dest, char *src)
 	int lengthD = 0, lengthS = 0;
 
 	while (*(dest + lengthD) != '\0')
-	lengthD++;
+		lengthD++;
 
-	while (*(src + lengthS) != '\0' && lengthD < 97)
+	while (*(src + lengthS) != '\0')
 	{
 		*(dest + lengthD) = *(src + lengthS);
 		lengthD++;
