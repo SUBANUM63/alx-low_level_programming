@@ -28,7 +28,7 @@ unsigned int binary_to_uint(const char *b)
 			return (sum);
 
 		if (b[i] == '1')
-			sum += (1 << len);
+			sum +=(1 * (1 << len));
 		i++;
 		len--;
 	}
